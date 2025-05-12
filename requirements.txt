@@ -3,3 +3,5 @@ pandas
 openai
 PyPDF2
 langchain
+langchain-community
+tiktoken
