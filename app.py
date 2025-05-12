@@ -3,7 +3,7 @@ from langchain.chat_models import ChatOpenAI
 
 st.image("logo.png", width=320)
 st.markdown("Extract verbatim key statements from scientific papers")
-st.markdown(":copyright: by B. Wohlfarth for IML Uni Bern")
+st.markdown(":copyright: v0.1 2025 by B. Wohlfarth for IML Institute of Medical Education, University of Bern")
 
 files = st.file_uploader(" ", type="pdf", accept_multiple_files=True)
 if st.button("Analysieren") and files:
